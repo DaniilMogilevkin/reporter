@@ -13,7 +13,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
-
+   
 */
 
 package report
@@ -23,8 +23,6 @@ const defaultGridTemplate = `
 \documentclass{article}
 \usepackage{graphicx}
 \usepackage[margin=0.5in]{geometry}
-\usepackage[utf8x]{inputenc}
-\usepackage[russian]{babel}
 
 \graphicspath{ {images/} }
 \begin{document}
