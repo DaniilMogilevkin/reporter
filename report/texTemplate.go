@@ -21,6 +21,8 @@ const defaultTemplate = `
 \documentclass{article}
 \usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
 
 \graphicspath{ {images/} }
 \begin{document}
