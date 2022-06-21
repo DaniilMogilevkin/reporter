@@ -20,6 +20,9 @@ const defaultTemplate = `
 %use square brackets as golang text templating delimiters
 \documentclass{article}
 \usepackage{graphicx}
+\usepackage[utf8x]{inputenc}
+\usepackage[russian]{babel}
+
 \usepackage[margin=1in]{geometry}
 
 \graphicspath{ {images/} }
